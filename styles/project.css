@@ -78,6 +78,7 @@ nav a{
     align-items: center;
     justify-content: space-between;
     margin: 0 150px;
+    gap: 50px;
 }
 .content-description{
     color:#252432 ;
@@ -87,5 +88,82 @@ nav a{
 /* image-design */
 .img-dsn{
  border-radius: 20px;
+ margin-top: 20px;
 
 }
+.main-part{
+    display: flex;
+    gap: 5px;
+    
+}
+/* section-2 */
+
+.main-all-part{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.section-2{
+    text-align: center;
+    align-items: center;
+     background-color: #EEF0FF;
+    padding: 50px 0; 
+    border-radius: 30px; 
+    margin: 30px 250px 30px 250px;
+}
+
+.content-title {
+  font-size: 48px;  
+  color: #3F3FFF;
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+    
+
+    .section-title{
+        text-align: center;
+    }
+    
+
+    .review-card{
+        background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 300px;
+    }
+    .review-title{
+        font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+    }
+   .review-text {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+   width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.review-date {
+  font-size: 13px;
+  color: gray;
+}
+.reviewer-name{
+    color: darkgray;
+}
+
+
