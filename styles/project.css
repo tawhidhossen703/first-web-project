@@ -175,6 +175,9 @@ nav a{
   align-items: center;
   text-align: center;
   margin: 5px 10px 10px 10px;
+  background-color: #fafafa ;
+  margin: 0 200px;
+  border-radius: 34px;
   
 }
 .free-btn {
@@ -186,4 +189,76 @@ nav a{
 }
 .s4-description{
     color: rgb(80, 75, 75);
+}
+
+/* footer--section-stylle */
+
+footer{
+    padding: 130px 230px ;
+    display: flex;
+    gap: 150px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], footer input[type="email"], footer textarea  {
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    
+
+}
+.footer-main{
+    background-color: #fdfdfd;
+    margin: 50px;
+    border-radius: 100px;
+}
+.section-title-1{
+    font-size: 35px;
+    color:#4E47FF;
+    
+}
+.section-title-2{
+    font-size: 20px;
+    color: #918ef6;
+}
+
+ul{
+     display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    padding: 0;
+    margin: 0;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 0 10px;
+   
+}
+ ul li a {
+    text-decoration: none;
+    color:darkgrey;
+}
+.d-2{
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+
+
+}
+.last-section{
+    text-align: center;
+}
+
+.logo-title{
+    color: #3F3FFF;
 }
